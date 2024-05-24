@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa - Projecte Recull</title>
+    <link rel="stylesheet" href="inici.css">
+</head>
+<body>
+    <header>
+        <h1>ProjecteRecull</h1>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="membres.html">Membres del Grup</a></li>
+                <li><a href="projectes.html">Projectes</a></li>
+                <li><a href="mapa.html" class="active">Mapa</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="mapa">
+            <h2>Mapa de les àrees d'estudi</h2>
+            <div id="mapa-container">
+                <iframe src="mapa/index.html" id="mapa-iframe" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://x.com/geografiaURV" target="_blank">
+                <img src="img/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/geografiaurv/" target="_blank">
+                <img src="img/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/school/universitaturv/?originalSubdomain=es" target="_blank">
+                <img src="img/linkedin.png" alt="LinkedIn">
+            </a>
+        </div>
+        <div class="logo-container">
+            <a href="https://www.geografia.urv.cat/ca/">
+                <img src="img/logogeo.png" alt="Logo">
+            </a>
+        </div>
+        <button id="back-to-top-btn">Tornar a l'inici</button>
+    </footer>
+    <script src="inici.js" defer></script>
+    <!-- Llibreria Leaflet.js -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</body>
+</html>

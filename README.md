@@ -10,9 +10,9 @@ Les dades de la web provenen dels treballs fets durant el curs. El text ha estat
 
 Totes les imatges són d'elaboració pròpia de l'autor, excepte dues:
 1. El logo de la web creat amb intel·ligència artificial, amb el Copilot de Microsoft.
-   <img src="img/logo.png" alt="logo web" style="max-width: 150px; height: auto;"> 
+ 
 2. El logo del Departament de Geografia, obtingut de la web de la [Universitat Rovira i Virgili](https://www.urv.cat/ca/universitat/comunicacio/identitat-institucional/logotips/).
-   <img src="img/logogeo.png" alt="logo departament" style="max-width: 150px; height: auto;"> 
+   
 
 ## **Estructura de la Web**
 
